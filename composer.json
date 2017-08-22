@@ -1,0 +1,22 @@
+{
+    "name": "gaurav/reganalyst",
+    "authors": [
+        {
+            "name": "gauravgrover95",
+            "email": "gauravgrover95@gmail.com"
+        }
+    ],
+    "require": {
+        "twig/twig": "^1.28",
+        "link/link": "^1.2",
+        "propel/propel": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "RegAnalyst\\": "src/"
+        },
+        "classmap": [
+            "src/App/Controller"
+        ]
+    }
+}
